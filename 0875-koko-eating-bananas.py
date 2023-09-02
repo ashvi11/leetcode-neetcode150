@@ -11,6 +11,7 @@
 # in the end, we'll do a minimum, and return res
 
 # Time Complexity: O(log(max(p)) . P) where P is len(piles) and max(p) is the maximum element of piles array
+# (log(max(p)) because we are doing a Binary Search in this range, and P because for each m, we are iterating piles to find total hours at m rate)
 # Space Complexity: O(1)
 
 class Solution:
